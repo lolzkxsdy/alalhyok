@@ -880,7 +880,7 @@ local function createList(option, parent)
 		Text = " " .. (typeof(option.value) == "string" and option.value or getMultiText()),
 		TextSize = 15,
 		Font = Enum.Font.Code,
-		TextColor3 = Color3.new(1, 1, 1),
+		TextColor3 = Color3.new(75, 0, 130),
 		TextXAlignment = Enum.TextXAlignment.Left,
 		TextTruncate = Enum.TextTruncate.AtEnd,
 		Parent = option.main
