@@ -1285,7 +1285,7 @@ local function createColorPickerWindow(option)
 	option.mainHolder = library:Create("TextButton", {
 		ZIndex = 4,
 		Size = UDim2.new(0, option.trans and 200 or 184, 0, 200),
-		BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+		BackgroundColor3 = Color3.fromRGB(75, 0, 130),
 		BorderColor3 = Color3.new(),
 		AutoButtonColor = false,
 		Visible = false,
