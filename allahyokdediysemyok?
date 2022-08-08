@@ -2193,7 +2193,7 @@ function library:AddWarning(warning)
 					ZIndex = 2,
 					Position = UDim2.new(0.5, -105, 0.5, -10),
 					Size = UDim2.new(0, 100, 0, 20),
-					BackgroundColor3 = Color3.fromRGB(40, 40, 40),
+					BackgroundColor3 = Color3.fromRGB(75, 0, 130),
 					BorderColor3 = Color3.new(),
 					Text = "Yes",
 					TextSize = 16,
