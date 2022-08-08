@@ -2006,13 +2006,13 @@ function library:AddTab(title, pos)
 				end
 				self.hasInit = true
 				self.main = library:Create("Frame", {
-					BackgroundColor3 = Color3.fromRGB(30, 30, 30),
+					BackgroundColor3 = Color3.fromRGB(75, 0, 130),
 					BorderColor3 = Color3.new(),
 					Parent = column.main
 				})
 				self.content = library:Create("Frame", {
 					Size = UDim2.new(1, 0, 1, 0),
-					BackgroundColor3 = Color3.fromRGB(30, 30, 30),
+					BackgroundColor3 = Color3.fromRGB(75, 0, 130),
 					BorderColor3 = Color3.fromRGB(60, 60, 60),
 					BorderMode = Enum.BorderMode.Inset,
 					Parent = self.main
@@ -2364,7 +2364,7 @@ function library:Init()
 	})
 	local top = self:Create("Frame", {
 		Size = UDim2.new(1, 0, 0, 50),
-		BackgroundColor3 = Color3.fromRGB(30, 30, 30),
+		BackgroundColor3 = Color3.fromRGB(75, 0, 130),
 		BorderColor3 = Color3.new(),
 		Parent = self.main
 	})
